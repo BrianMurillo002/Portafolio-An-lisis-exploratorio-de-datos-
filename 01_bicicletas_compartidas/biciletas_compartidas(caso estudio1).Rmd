@@ -1,0 +1,176 @@
+---
+title: "Análisis del comportamiento de usuarios en un sistema de bicicletas compartidas"
+author: "Brian Murillo"
+date: "2026-01-30"
+output:
+  html_document: null
+  pdf_document: default
+---
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(readr)
+library(stringr)
+```
+
+## Introducción
+
+Este informe se realizo con el objetivo de analizar el comportamiento entre los miembros cusuales y los miembros anuales del sistema de bicicletas compartidas, con la finalidad de identificar estrategias u oportunidades que ayuden con el crecimiento en la conversión de usuarios ocasionales a miembros anuales.
+
+
+### Preguntas Orientadoras
+
+¿Cómo difiere la duración de los viajes entre usuarios?
+
+¿En qué días y meses se presenta mayor uso?
+
+¿Qué patrones explican la baja conversión?
+
+
+## Fuente y preparación de los datos
+
+Se utilizaron 12 archivos correspondientes a un año completo de viajes, específicamente del año 2025. Estos datos fueron consolidados en un único conjunto de datos (dataset). Posteriormente, se realizó un proceso de limpieza de datos, en el cual se eliminaron valores nulos, duraciones negativas y viajes con una duración superior a 24 horas, ya que estos se consideran registros anómalos (ROOC) y no representan un comportamiento real de los usuarios.
+
+## Carga y limpieza de datos
+
+# Cargar todos los archivos
+
+```{r carga_limpieza}
+# 1. Cargar archivos
+archivos <- list.files("Datos", full.names = TRUE)
+
+if (length(archivos) == 0) {
+  stop("❌ No se encontraron archivos en la carpeta 'data'")
+}
+
+rides_all <- archivos %>%
+  lapply(read_csv) %>%
+  bind_rows() %>%
+  rename_with(tolower)
+
+# 2. Mostrar columnas reales (IMPORTANTE)
+cat("📌 Columnas detectadas en el dataset:\n")
+print(names(rides_all))
+
+# 3. Buscar columnas de fecha/hora (robusto)
+start_col <- names(rides_all)[
+  str_detect(names(rides_all), "start|begin")
+][1]
+
+end_col <- names(rides_all)[
+  str_detect(names(rides_all), "end|stop|finish")
+][1]
+
+# 4. Validación fuerte
+if (is.na(start_col) || is.na(end_col)) {
+  stop("❌ No se encontraron columnas de inicio o fin.
+👉 Revisa arriba los nombres impresos y ajusta los patrones.")
+}
+
+cat("✅ Columna inicio:", start_col, "\n")
+cat("✅ Columna fin:", end_col, "\n")
+
+# 5. Renombrar
+rides_all <- rides_all %>%
+  rename(
+    started_at = all_of(start_col),
+    ended_at   = all_of(end_col)
+  )
+
+# 6. Limpieza y variables nuevas
+datos_limpios <- rides_all %>%
+  mutate(
+    started_at = as.POSIXct(started_at, tz = "UTC"),
+    ended_at   = as.POSIXct(ended_at, tz = "UTC"),
+    ride_length_min = as.numeric(difftime(ended_at, started_at, units = "mins"))
+  ) %>%
+  filter(
+    !is.na(ride_length_min),
+    ride_length_min > 0,
+    ride_length_min <= 1440
+  ) %>%
+  mutate(
+    day_of_week = wday(started_at, label = TRUE),
+    month = month(started_at, label = TRUE)
+  )
+
+cat("✅ Datos limpios:", nrow(datos_limpios), "registros\n")
+
+```
+
+## Análisis exploratorio
+
+El analisis que se realizo con base a los datos suministrados por el  sistema de bicicletas compartidas. En esta etapa se realizaron las siguientes acciones:
+
+1. Se calculo la duración de cada viaje en minutos, a partir de la diferencia entre la fecha y hora de inicio del recorrido (started_at) y la fehca y hora de finalización del recorrido (ended_At). Esta medida permitio identificar el tiempo de uso del servicio por cada uno de los usuarios.
+
+```{r resumen_usuarios}
+datos_limpios %>%
+  group_by(member_casual) %>%
+  summarise(
+    duracion_promedio = mean(ride_length_min),
+    duracion_mediana  = median(ride_length_min),
+    total_viajes      = n(),
+    .groups = "drop"
+  )
+```
+
+2. Se genero 2 nuevas medidas para facilitar el analisis de estos datos:
+
+###Day_of_week
+
+-day_of_week, que es para identificar el dia de la semana que el usuario utilizo el sistema
+
+```{r grafico_dias}
+datos_limpios %>%
+  group_by(member_casual, day_of_week) %>%
+  summarise(
+    duracion_promedio = mean(ride_length_min),
+    .groups = "drop"
+  ) %>%
+  ggplot(aes(day_of_week, duracion_promedio, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Duración promedio del viaje por día",
+    x = "Día de la semana",
+    y = "Minutos",
+    fill = "Tipo de usuario"
+  )
+```
+
+**Interpretación**
+
+Se puede evidenciar que los usuarios ocasioanels presentan viajes mucho más largos que los miembros; lo que supone que los usuarios ocasionales utilizan el sistema para uso recreativo.
+
+### Uso por mes
+
+-month, para identificar el mes correspondiente al uso del sistema.
+
+```{r graficos_mes}
+datos_limpios %>%
+  group_by(member_casual, month) %>%
+  summarise(
+    total_viajes = n(),
+    .groups = "drop"
+  ) %>%
+  ggplot(aes(month, total_viajes, fill = member_casual)) +
+  geom_col(position = "dodge") +
+  labs(
+    title = "Cantidad de viajes por mes",
+    x = "Mes",
+    y = "Número de viajes",
+    fill = "Tipo de usuario"
+  )
+```
+
+
+**Interpretación**  
+Se observa un aumento significativo de usuarios casuales durante los meses de verano, especialmente en junio.
+
+## Conclusión
+Con base en estos hallazgos, se concluye que la baja conversión de usuarios ocasionales a miembros anuales no se debe a una falta de interés en el servicio, sino a que el modelo actual de membresía no se adapta a su comportamiento de uso. Por lo tanto, se recomienda implementar membresías flexibles de corta duración, como planes mensuales, semestrales o estacionales, así como promociones específicas durante los meses de mayor uso, con el objetivo de incrementar la conversión y maximizar los ingresos de la empresa.
+
