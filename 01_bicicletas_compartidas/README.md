@@ -29,3 +29,9 @@ La baja conversión de usuarios ocasionales no responde a falta de interés,
 sino a un desajuste entre el modelo de membresía y su comportamiento de uso.
 Se recomienda implementar planes flexibles de corta duración y promociones
 estacionales para mejorar la conversión.
+
+## 📄 Archivos del análisis
+
+- 📘 [Ver reporte en Rmd](bicicleta_compartida(caso estudio1).Rmd)
+- 🌐 [Ver reporte en HTML](Bicicletas_compartidas.html)
+
