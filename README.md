@@ -10,6 +10,5 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 - R Markdown
 
 ## 📁 Casos de estudio
-1. Análisis exploratorio de datos
-2. Limpieza y transformación de datasets
-3. Visualización de datos con ggplot2
+- 🚲 Análisis del comportamiento de usuarios en un sistema de bicicletas compartidas
+- 💳 Análisis de churn e ingresos por tipo de plan
