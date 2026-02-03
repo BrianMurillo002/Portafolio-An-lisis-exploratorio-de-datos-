@@ -32,6 +32,6 @@ especialmente en ciudades con mayor concentración de clientes, así como el
 fortalecimiento de planes con mejor rendimiento económico.
 
 ## 📄 Archivos del análisis
-- 📘 [Ver análisis en R Markdown](análisis_suscripciones.Rmd)
-- 🌐 [Ver reporte en HTML](Análisis_suscripciones.html)
+- 📘 [Ver análisis en R Markdown](analisis_suscripciones.Rmd)
+- 🌐 [Ver reporte en HTML](Analisis_suscripciones.html)
 
