@@ -12,4 +12,4 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 ## 📁 Casos de estudio
 
 - 🚲 [Análisis del comportamiento de usuarios en un sistema de bicicletas compartidas](01_bicicletas_compartidas)
-- 💳 [Análisis de churn e ingresos por tipo de plan](02_churn_ingresos_suscripciones)
+- 💳 [Análisis_suscripciones](02_analisis_suscripciones)
