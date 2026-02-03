@@ -33,5 +33,6 @@ fortalecimiento de planes con mejor rendimiento económico.
 
 ## 📄 Archivos del análisis
 
-- 📘 [Ver análisis en R Markdown](Análisis_suscripciones.Rmd)
-- 🌐 [Ver reporte en HTML](Análisis_suscripciones.html)
+- 📘 [Ver análisis en R Markdown](analisis_suscripciones.Rmd)
+- 🌐 [Ver reporte en HTML](analisis_suscripciones.html)
+
