@@ -41,3 +41,12 @@ Variables principales:
 -tenure_months
 
 -is_active
+
+
+## 📊 Dashboard Interactivo
+
+🔗 Ver dashboard en línea:
+[Ver Dashboard](https://lookerstudio.google.com/reporting/444d1e1d-80ef-4eca-a7a8-259bdfbbd2cc)
+
+📷 Vista previa:
+![Dashboard](Dashboard.png)
