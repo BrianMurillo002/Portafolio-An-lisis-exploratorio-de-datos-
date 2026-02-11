@@ -48,16 +48,6 @@ Variables principales:
 
 ---
 
-## 📊 Dashboard Interactivo
-
-🔗 Ver dashboard en línea:
-[Ver Dashboard](https://lookerstudio.google.com/reporting/444d1e1d-80ef-4eca-a7a8-259bdfbbd2cc)
-
-📷 Vista previa:
-![Dashboard](Dashboard.png)
-
----
-
 ## 📈 Insights Clave
 
 1️⃣ El plan Premium genera los mayores ingresos totales, pero presenta un churn superior al promedio.
@@ -76,3 +66,15 @@ Variables principales:
 - Ofrecer descuentos o beneficios exclusivos en Bogotá.
 - Crear planes anuales con incentivos para reducir churn.
 - Implementar alertas tempranas según tenure_months.
+
+---
+
+## 📊 Dashboard Interactivo
+
+🔗 Ver dashboard en línea:
+[Ver Dashboard](https://lookerstudio.google.com/reporting/444d1e1d-80ef-4eca-a7a8-259bdfbbd2cc)
+
+📷 Vista previa:
+![Dashboard](Dashboard.png)
+
+
