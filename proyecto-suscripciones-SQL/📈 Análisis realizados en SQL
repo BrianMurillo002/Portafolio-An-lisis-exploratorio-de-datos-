@@ -1,0 +1,39 @@
+📈 Análisis realizados en SQL
+
+1️. Tasa de Churn por plan
+SELECT
+  plan,
+  COUNTIF(is_active = FALSE) AS cancelados,
+  COUNT(*) AS total_clientes,
+  ROUND(COUNTIF(is_active = FALSE)*100.0/COUNT(*),2) AS churn_rate
+FROM subscriptions;
+GROUP BY plan
+ORDER BY churn_rate
+
+2️. Ingresos por tipo de plan
+SELECT
+  plan,
+  SUM(monthly_fee * tenure_months) AS ingresos_por_plan
+FROM subscriptions
+GROUP BY plan
+ORDER BY ingresos_por_plan DESC;
+
+3️. Ingresos mensuales
+SELECT
+  DATE_TRUNC(signup_date, MONTH) AS mes,
+  SUM(monthly_fee * tenure_months) AS ingresos
+FROM subscriptions
+GROUP BY mes
+ORDER BY ingresos;
+
+4. Porcentaje de cancelación por ciudad
+SELECT
+  city,
+  COUNTIF(is_active = FALSE) AS cancelados,
+  COUNT(*) AS total_clientes,
+  ROUND(
+    COUNTIF(is_active = FALSE) * 100.0 / COUNT(*),
+  2) AS churn_percentage
+FROM subscriptions
+GROUP BY city
+ORDER BY churn_percentage DESC;
