@@ -1,4 +1,4 @@
-# 📊 Portafolio de Análisis de Datos – Brian Murillo
+<img width="1364" height="614" alt="image" src="https://github.com/user-attachments/assets/817b2cf0-11b1-4504-848c-2c361c4d792c" /># 📊 Portafolio de Análisis de Datos – Brian Murillo
 Ingeniero Industrial con enfoque en análisis de datos usando lenguaje R y SQL.
 En este repositorio encontrarás casos de estudio reales y académicos
 relacionados con limpieza, análisis, visualización y reporting de datos.
@@ -16,4 +16,16 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 
 - 🚲 [Análisis del comportamiento de usuarios en un sistema de bicicletas compartidas](01_bicicletas_compartidas)
 - 💳 [Análisis de abandono e ingresos por tipo de plan](02_analisis_suscripciones)
+- Análisis de Suscripciones (SQL + Looker Studio)
+
+Proyecto enfocado en análisis de churn, ingresos y retención de clientes en un modelo de suscripción.
+
+🔹 SQL: Cálculo de churn rate, ingresos por plan y cancelaciones por ciudad.  
+🔹 Dashboard interactivo en Looker Studio.
+
+📂 Ver proyecto completo:
+[Proyecto Suscripciones](./proyecto-suscripciones-SQL)
+
+🌐 Ver dashboard en línea:
+[Dashboard Interactivo](https://lookerstudio.google.com/reporting/444d1e1d-80ef-4eca-a7a8-259bdfbbd2cc)
 
