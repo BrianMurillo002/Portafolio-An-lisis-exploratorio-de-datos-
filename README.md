@@ -1,4 +1,4 @@
-<img width="1364" height="614" alt="image" src="https://github.com/user-attachments/assets/817b2cf0-11b1-4504-848c-2c361c4d792c" /># 📊 Portafolio de Análisis de Datos – Brian Murillo
+# 📊 Portafolio de Análisis de Datos – Brian Murillo
 Ingeniero Industrial con enfoque en análisis de datos usando lenguaje R y SQL.
 En este repositorio encontrarás casos de estudio reales y académicos
 relacionados con limpieza, análisis, visualización y reporting de datos.
