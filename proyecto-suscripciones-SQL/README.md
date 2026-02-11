@@ -1,43 +1,43 @@
 📊 Análisis de Churn e Ingresos – Empresa de Suscripciones
 
-📌 Contexto del negocio
+****📌 Contexto del negocio
 
 Una empresa digital basada en modelo de suscripción desea analizar:
 
-La tasa de cancelación (Churn Rate)
+-La tasa de cancelación (Churn Rate)
 
-Los ingresos generados por tipo de plan
+-Los ingresos generados por tipo de plan
 
-El comportamiento mensual de ingresos
+-El comportamiento mensual de ingresos
 
-Las ciudades con mayor riesgo de cancelación
+-Las ciudades con mayor riesgo de cancelación
 
-El objetivo es identificar oportunidades para reducir churn y optimizar ingresos.
+-El objetivo es identificar oportunidades para reducir churn y optimizar ingresos.
 
 🛠️ Herramientas utilizadas
 
-Google BigQuery (SQL) → Modelado y análisis de datos
+-Google BigQuery (SQL) → Modelado y análisis de datos
 
-Looker Studio → Visualización y dashboard interactivo
+-Looker Studio → Visualización y dashboard interactivo
 
-Generación de datos simulados para análisis exploratorio
+-Generación de datos simulados para análisis exploratorio
 
 📂 Estructura de los datos
 
-Tabla principal: subscriptions
+-Tabla principal: subscriptions
 
 Variables principales:
 
-customer_id
+-customer_id
 
-city
+-city
 
-plan
+-plan
 
-signup_date
+-signup_date
 
-monthly_fee
+-monthly_fee
 
-tenure_months
+-tenure_months
 
-is_active
+-is_active
