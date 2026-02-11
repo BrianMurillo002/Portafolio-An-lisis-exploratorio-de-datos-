@@ -1,6 +1,6 @@
 📊 Análisis de Churn e Ingresos – Empresa de Suscripciones
 
-****📌 Contexto del negocio
+📌 Contexto del negocio
 
 Una empresa digital basada en modelo de suscripción desea analizar:
 
