@@ -49,4 +49,4 @@ GROUP BY city
 ORDER BY churn_percentage DESC;
 
 🔎 Interpretación:
-Bogotá concentra el mayor porcentaje de cancelaciones, convirtiéndose en el principal foco de riesgo geográfico.
+Barranquilla concentra el mayor porcentaje de cancelaciones, convirtiéndose en el principal foco de riesgo geográfico.
