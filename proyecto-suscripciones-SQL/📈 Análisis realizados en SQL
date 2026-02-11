@@ -9,6 +9,10 @@ SELECT
 FROM subscriptions
 GROUP BY plan
 ORDER BY churn_rate;
+
+🔎 Interpretación:
+El plan Premium presenta la mayor tasa de churn, lo que indica posibles problemas de percepción de valor o precio. Aunque puede generar mayores ingresos por cliente, su nivel de cancelación representa un riesgo estratégico para la compañía.
+
 ---
 2️⃣ Ingresos por tipo de plan
 SELECT
@@ -17,6 +21,9 @@ SELECT
 FROM subscriptions
 GROUP BY plan
 ORDER BY ingresos_por_plan DESC;
+
+🔎 Interpretación:
+El plan Premium lidera en generación de ingresos totales, lo que confirma que es el segmento de mayor valor económico.
 ---
 3️⃣ Ingresos mensuales
 SELECT
@@ -25,6 +32,9 @@ SELECT
 FROM subscriptions
 GROUP BY mes
 ORDER BY ingresos;
+
+🔎 Interpretación:
+Se observa variación mensual en los ingresos, con picos en determinados meses. Esto puede estar relacionado con campañas comerciales o estacionalidad.
 ---
 4️⃣ Porcentaje de cancelación por ciudad
 SELECT
@@ -37,3 +47,6 @@ SELECT
 FROM subscriptions
 GROUP BY city
 ORDER BY churn_percentage DESC;
+
+🔎 Interpretación:
+Bogotá concentra el mayor porcentaje de cancelaciones, convirtiéndose en el principal foco de riesgo geográfico.
