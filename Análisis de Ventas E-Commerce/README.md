@@ -32,11 +32,6 @@ Se construyó una tabla analítica con las siguientes variables clave:
 - quantity  
 - total_venta (quantity * price)
 
-Ejemplo de métrica principal:
-
-```sql
-SUM(o.quantity * p.price) AS total_venta
-
 ## Insight Claves
 
 La categoría Accesorios concentra la mayor participación en ingresos del semestre, lo que indica una alta demanda y potencial para estrategias de cross-selling.
