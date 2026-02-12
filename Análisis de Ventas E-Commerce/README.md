@@ -61,5 +61,5 @@ La ciudad de Bogotá presenta los mayores ingresos en el semestre.
 [Ver Dashboard](https://lookerstudio.google.com/reporting/7a097236-bc29-45ac-b9f7-4ef87faea2ea)
 
 📷 Vista previa:
-![Dashboard](sin titulo.png)
+![Dashboard](Informe_SQL.png)
 
