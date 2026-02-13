@@ -1,6 +1,9 @@
 ## 📦 Análisis de Desempeño Logístico
-Retrasos, Cumplimiento e Impacto en Ingresos
+
+### Retrasos, Cumplimiento e Impacto en Ingresos
+
 ---
+
 ## 📌 Descripción del Proyecto
 
 Este proyecto presenta un análisis integral del desempeño logístico de una empresa de envíos, con el objetivo de identificar las causas de retrasos, evaluar el nivel de cumplimiento operativo y medir el impacto financiero asociado.
