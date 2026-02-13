@@ -73,6 +73,12 @@ El análisis fue desarrollado utilizando SQL en BigQuery para la preparación y 
 🔗 Ver dashboard interactivo:
 [Ver dashboard](https://lookerstudio.google.com/reporting/8fea2896-02f4-4b85-92d2-111a25e929fa)
 
+📷 Vista previa:
+![Dashboard](1.png)
+![Dashboard](2.png)
+![Dashboard](3S.png)
+![Dashboard](4s.png)
+
 ---
 
 ## 💡 Conclusión
