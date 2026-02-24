@@ -4,6 +4,7 @@
 ## 📌 Project Overview
 
 This project analyzes sales and customer behavior for an e-commerce business. The objective was to transform raw transactional data into actionable business insights using Excel and Looker Studio.
+
 ---
 
 ## 🛠 Tools Used
