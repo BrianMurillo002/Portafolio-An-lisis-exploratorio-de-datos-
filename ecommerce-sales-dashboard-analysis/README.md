@@ -70,7 +70,9 @@ Implement retention campaigns to reduce customer drop-off.
 🔗 Ver dashboard interactivo:
 [Ver dashboard](https://lookerstudio.google.com/reporting/85b5611a-3b38-4394-a29d-b7beb1d8c209)
 
+
 📷 Vista previa:
+
 ![Dashboard](D1.png)
 ![Dashboard](D2.png)
 ![Dashboard](D3.png)
