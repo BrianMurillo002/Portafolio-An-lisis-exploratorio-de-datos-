@@ -19,5 +19,6 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 - [Proyecto Suscripciones](./proyecto-suscripciones-SQL)
 - [Análisis de Ventas E-Commerce](Análisis_de_Ventas_E-Commerce)
 - [Optimización del Desempeño logístico](Análisis_Optimización_Desempeño_Logístico)
+- [Ecommerces sales analysis](ecommerce-sales-dashboard-analysis)
 
 
