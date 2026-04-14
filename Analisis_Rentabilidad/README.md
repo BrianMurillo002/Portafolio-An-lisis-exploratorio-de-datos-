@@ -26,9 +26,9 @@ Este script y el análisis posterior permiten a la gerencia tomar decisiones bas
 ### 🖥️ Dashboard Interactivo
 Para facilitar la revisión de los hallazgos, se adjunta una vista previa del dashboard desarrollado:
 
-![Vista Previa del Dashboard](Productividad.png)
+![Vista Previa del Dashboard](Rentabilidad.png)
 
 ### 📂 Archivos del Proyecto
-* [📥 Descargar Reporte en PDF](Productividad.pdf)
-* [📊 Archivo Fuente de Power BI (.pbix)](Productividad.pbix)
-* [🐍 Script de Procesamiento en Python](Analisis_Productividad.py)
+* [📥 Descargar Reporte en PDF](Rentabilidad.pdf)
+* [📊 Archivo Fuente de Power BI (.pbix)](Rentabilidad.pbix)
+* [🐍 Script de Procesamiento en Python](Rentabilidad.py)
