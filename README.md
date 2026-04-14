@@ -5,6 +5,7 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 
 ## 🛠️ Herramientas
 - R
+- Python (Pandas, Matplotlib, NumPy)
 - SQL
 - tidyverse (dplyr, ggplot2, readr, tidyr)
 - lubridate
