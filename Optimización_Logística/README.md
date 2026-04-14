@@ -24,6 +24,6 @@ A través del análisis de datos se identificaron los siguientes puntos:
 ![Dashboard Logístico y Mapas](Optimizacion_de_entregas.png)
 
 ### 📂 Archivos del Proyecto
-* [📥 Descargar Reporte en PDF](Rentabilidad.pdf)
-* [📊 Archivo Fuente de Power BI (.pbix)](Rentabilidad.pbix)
-* [🐍 Script de Procesamiento en Python](Rentabilidad.py)
+* [📥 Descargar Reporte en PDF](Optimizacion_de_entregas.pdf)
+* [📊 Archivo Fuente de Power BI (.pbix)](Optimizacion_de_entregas.pbix)
+* [🐍 Script de Procesamiento en Python](Optimizacion_de_entregas.ipynb)
