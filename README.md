@@ -21,5 +21,6 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 - [Análisis de Ventas E-Commerce](Análisis_de_Ventas_E-Commerce)
 - [Optimización del Desempeño logístico](Análisis_Optimización_Desempeño_Logístico)
 - [Ecommerces sales analysis](ecommerce_sales_dashboard_analysis)
+- [Analisis_Productividad](Analisis_Productividad)
 
 
