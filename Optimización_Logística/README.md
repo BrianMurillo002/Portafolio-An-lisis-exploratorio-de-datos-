@@ -21,4 +21,9 @@ A través del análisis de datos se identificaron los siguientes puntos:
 2. **Ajuste de Promesa de Entrega:** Sincronizar los tiempos estimados con la realidad operativa para evitar el pago de multas innecesarias.
 
 ## 🖼️ Dashboard Logístico
-![Dashboard Logístico y Mapas](image_8bd5f5.png)
+![Dashboard Logístico y Mapas](Optimizacion_de_entregas.png)
+
+### 📂 Archivos del Proyecto
+* [📥 Descargar Reporte en PDF](Rentabilidad.pdf)
+* [📊 Archivo Fuente de Power BI (.pbix)](Rentabilidad.pbix)
+* [🐍 Script de Procesamiento en Python](Rentabilidad.py)
