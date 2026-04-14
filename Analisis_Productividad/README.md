@@ -20,3 +20,10 @@ Este script y el análisis posterior permiten a la gerencia tomar decisiones bas
 1. **Optimizar el Portafolio:** Liquidar o reestructurar productos con baja rentabilidad.
 2. **Control de Costos:** Ajustar políticas de costos operativos basadas en el margen real.
 3. **Estrategia de Precios:** Definir precios sugeridos que garanticen la sostenibilidad financiera.
+
+## 📂 Documentación y Reportes
+
+Para una revisión detallada de las métricas de rentabilidad y los indicadores clave (KPIs), puedes consultar los siguientes archivos:
+
+* **[📄 Descargar Reporte Completo en PDF](Productividad.pdf):** Contiene el análisis detallado de márgenes por producto y el total de la operación ($810.000 en ventas totales).
+* **[📊 Dashboard de Rentabilidad](productividad.png):** Visualización de la eficiencia del portafolio.
