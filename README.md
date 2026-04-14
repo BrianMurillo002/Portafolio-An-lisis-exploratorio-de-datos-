@@ -30,3 +30,6 @@
 
 - #### [💳 Análisis de abandono e ingresos por tipo de plan](/.02_analisis_suscripciones) : Simulación estadística y cálculo de Churn Rate (30%).
 
+## 🎯 Perfil Profesional
+Me enfoco en transformar datos brutos en insights accionables. Como Ingeniero Industrial, mi prioridad es la eficiencia operativa y la reducción de costos mediante modelos analíticos reproducibles y dashboards de alto nivel ejecutivo.
+
