@@ -10,7 +10,7 @@
 
 ### 🐍 Python
 
-- ##### [📉 Analisis_Rentabilidad](/.Analisis_Rentabilidad) : Optimización de márgenes y productos financieros ($810k en ventas).
+- #### [📉 Analisis_Rentabilidad](/.Analisis_Rentabilidad) : Optimización de márgenes y productos financieros ($810k en ventas).
 
 - #### [⚙️ Analisis_Productividad](/.Analisis_Productividad) : Evaluación de desempeño de operarios (1.840 piezas procesadas).
 
