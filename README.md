@@ -1,27 +1,32 @@
 # 📊 Portafolio de Análisis de Datos – Brian Murillo
-Ingeniero Industrial con enfoque en análisis de datos usando lenguaje R y SQL.
-En este repositorio encontrarás casos de estudio reales y académicos
-relacionados con limpieza, análisis, visualización y reporting de datos.
+¡Hola! Soy Ingeniero Industrial apasionado por la transformación de datos en decisiones estratégicas. Mi enfoque combina la optimización de procesos industriales con el poder del análisis de datos para mejorar la rentabilidad, la logística y la productividad operativa.
 
 ## 🛠️ Herramientas
-- R
-- Python (Pandas, Matplotlib, NumPy)
-- SQL
-- tidyverse (dplyr, ggplot2, readr, tidyr)
-- lubridate
-- R Markdown
-- Power BI
-- Looker Studio
+- Lenguajes: R (Tidyverse, ggplot2), Python (Pandas, Matplotlib, NumPy), SQL (BigQuery).
+- Visualización: Power BI, Looker Studio.
+-Reporting: R Markdown.
 
-## 📁 Casos de estudio
+## 📁 Casos de estudio por Tecnología
 
-- 🚲 [Análisis del comportamiento de usuarios en un sistema de bicicletas compartidas](01_bicicletas_compartidas) : Lenguaje R
-- 💳 [Análisis de abandono e ingresos por tipo de plan](02_analisis_suscripciones) : Lenguaje R
-- [Proyecto Suscripciones](./proyecto-suscripciones-SQL) : SQL
-- [Análisis de Ventas E-Commerce](Análisis_de_Ventas_E-Commerce) : SQL
-- [Optimización del Desempeño logístico](Análisis_Optimización_Desempeño_Logístico) : SQL
-- [Ecommerces sales analysis](ecommerce_sales_dashboard_analysis) : SQL
-- [Analisis_Productividad](Analisis_Productividad) : Python
-- [Analisis_Rentabilidad](Analisis_Rentabilidad) : Python
-- [Optimización_Logística](Optimización_Logística) : Python
+### 🐍 Python
+
+- ##### 📉 Analisis_Rentabilidad : Optimización de márgenes y productos financieros ($810k en ventas).
+
+- #### ⚙️ Analisis_Productividad : Evaluación de desempeño de operarios (1.840 piezas procesadas).
+
+- #### 🚚 Optimización_Logística : Gestión de entregas y penalizaciones en el Valle del Cauca.
+
+### 🗄️ SQL
+
+- #### 📦 Optimización del Desempeño logístico : Control de cumplimiento y retrasos.
+
+- #### 🛒 Análisis de Ventas E-Commerce : Modelado de datos semestral mediante JOINs.
+
+- #### 📊 Proyecto Suscripciones : Análisis de ingresos y retención de clientes.
+
+### 📈 Lenguaje R
+
+- #### 🚲 Análisis del comportamiento de usuarios : Estudio de 12 meses de viajes en sistemas compartidos.
+
+- #### 💳 Análisis de abandono e ingresos por tipo de plan : Simulación estadística y cálculo de Churn Rate (30%).
 
