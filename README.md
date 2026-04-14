@@ -22,5 +22,5 @@ relacionados con limpieza, análisis, visualización y reporting de datos.
 - [Optimización del Desempeño logístico](Análisis_Optimización_Desempeño_Logístico) : SQL
 - [Ecommerces sales analysis](ecommerce_sales_dashboard_analysis) : SQL
 - [Analisis_Productividad](Analisis_Productividad) : Python
-
+- [Analisis_Rentabilidad](Analisis_Rentabilidad) : Python
 
