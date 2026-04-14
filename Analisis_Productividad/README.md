@@ -27,3 +27,4 @@ Para una revisión detallada de las métricas de rentabilidad y los indicadores 
 
 * **[📄 Descargar Reporte Completo en PDF](Productividad.pdf):** Contiene el análisis detallado de márgenes por producto y el total de la operación ($810.000 en ventas totales).
 * **[📊 Dashboard de Rentabilidad](productividad.pbix):** Visualización de la eficiencia del portafolio.
+* **[Codigo en Python](Analisis_Productividad.py):** Codigo del ejercicio en Python.
