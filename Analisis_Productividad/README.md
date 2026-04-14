@@ -23,4 +23,4 @@ Basado en los datos visualizados en el dashboard, propuse las siguientes accione
 3. **Optimización de Costos:** Al estandarizar la productividad al nivel de los operarios más eficientes, la empresa podría reducir significativamente el costo operativo total.
 
 ## 🖼️ Visualización de Datos
-![Dashboard de Productividad](Prod.png)
+![Dashboard de Productividad](Analisis_Productividad.png)
