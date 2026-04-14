@@ -22,5 +22,16 @@ Basado en los datos visualizados en el dashboard, propuse las siguientes accione
 2. **Revisión de Métodos:** Analizar las causas raíz del bajo desempeño en los operarios con mayor costo unitario.
 3. **Optimización de Costos:** Al estandarizar la productividad al nivel de los operarios más eficientes, la empresa podría reducir significativamente el costo operativo total.
 
-## 🖼️ Visualización de Datos
+## 📊 Visualización y Entregables
+
+### 🖥️ Dashboard Interactivo
+Para facilitar la revisión de los hallazgos, se adjunta una vista previa del dashboard desarrollado:
+
 ![Dashboard de Productividad](Analisis_Productividad.png)
+
+### 📂 Archivos del Proyecto
+* [📥 Descargar Reporte en PDF](Analisis_Productividad.pdf)
+* [📊 Archivo Fuente de Power BI (.pbix)](Analisis_Productividad.pbix)
+* [🐍 Script de Procesamiento en Python](Productividad.py)
+
+
