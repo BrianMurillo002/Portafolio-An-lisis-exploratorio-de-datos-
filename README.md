@@ -12,6 +12,7 @@
 - #### [📉 Analisis_Rentabilidad](./Python/Analisis_Rentabilidad) : Optimización de márgenes y productos financieros ($810k en ventas).
 - #### [⚙️ Analisis_Productividad](./Python/Analisis_Productividad) : Evaluación de desempeño de operarios (1.840 piezas procesadas).
 - #### [🚚 Optimización_Logística](./Python/Optimización_Logística) : Gestión de entregas y penalizaciones en el Valle del Cauca.
+- #### [🏭 Confiabilidad y Mantenimiento Industrial](./Mantenimiento_Nuevo) : Análisis de disponibilidad sobre 51.5 horas de parada y $12,000 en costos de reparación.
 
 ### 🗄️ SQL
 - #### [📦 Optimización del Desempeño logístico](./SQL/Análisis_Optimización_Desempeño_Logístico) : Control de cumplimiento y retrasos.
