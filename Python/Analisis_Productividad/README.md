@@ -32,6 +32,6 @@ Para facilitar la revisión de los hallazgos, se adjunta una vista previa del da
 ### 📂 Archivos del Proyecto
 * [📥 Descargar Reporte en PDF](Analisis_Productividad.pdf)
 * [📊 Archivo Fuente de Power BI (.pbix)](Analisis_Productividad.pbix)
-* [🐍 Script de Procesamiento en Python](Productividad.py)
+* [🐍 Script de Procesamiento en Python](Analisis_de_Productividad.ipynb)
 
 
