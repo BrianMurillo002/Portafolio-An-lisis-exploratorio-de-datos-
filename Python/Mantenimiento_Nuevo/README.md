@@ -24,3 +24,14 @@ Se desarrolló un dashboard ejecutivo con los siguientes KPIs:
 ## 🛠️ Herramientas Utilizadas
 * **Python:** Pandas, NumPy.
 * **Visualización:** Looker Studio / Power BI.
+
+## 📊 Visualización y Entregables
+
+### 🖥️ Dashboard Interactivo
+Para facilitar la revisión de los hallazgos, se adjunta una vista previa del dashboard desarrollado:
+
+![Dashboard de Productividad](Mantenimiento.png)
+
+### 📂 Archivos del Proyecto
+* [📊 Archivo Fuente de Power BI (.pbix)](Mantenimiento.pbix)
+* [🐍 Script de Procesamiento en Python](Mantenimiento.py)
