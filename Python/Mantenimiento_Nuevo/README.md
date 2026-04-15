@@ -34,4 +34,4 @@ Para facilitar la revisión de los hallazgos, se adjunta una vista previa del da
 
 ### 📂 Archivos del Proyecto
 * [📊 Archivo Fuente de Power BI (.pbix)](Mantenimiento.pbix)
-* [🐍 Script de Procesamiento en Python](Mantenimiento.py)
+* [🐍 Script de Procesamiento en Python](Mantenimiento(Python).ipynb)
