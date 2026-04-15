@@ -1,6 +1,6 @@
 # 🐍 Proyectos de Análisis de Datos con Python
 
-Bienvenido a la sección de soluciones desarrolladas con Python. En esta carpeta se encuentran proyectos enfocados en la **optimización de procesos**, **auditoría financiera** y **gestión logística**, aplicando bibliotecas como Pandas y Numpy para la toma de decisiones basada en datos.
+Bienvenido a la sección de soluciones desarrolladas con Python. En esta carpeta se encuentran proyectos enfocados en la **optimización de procesos**, **auditoría financiera**, **gestión logística** y **mantenimiento industrial**, aplicando bibliotecas como Pandas y Numpy para la toma de decisiones basada en datos.
 
 ## 🚀 Proyectos Incluidos
 
@@ -19,7 +19,12 @@ Monitoreo de una red de distribución en el Valle del Cauca con ingresos netos d
 * **Impacto:** Cuantificación de 115 minutos de retraso acumulado y análisis de penalizaciones en rutas críticas como Yumbo y Cali-Oeste.
 * **Entregables:** Script con lógica condicional de multas y mapas de calor logísticos.
 
+### 4. [🏭 Confiabilidad y Mantenimiento Industrial](./Mantenimiento_Nuevo)
+Análisis de disponibilidad sobre 51.5 horas de parada y $12,000 en costos de reparación.
+* **Impacto:** Detección de la **Extrusora_A** como cuello de botella crítico con un costo promedio de $350.50 por hora de inactividad.
+* **Entregables:** Proceso de limpieza de datos (ETL), cálculo de KPIs de mantenimiento y Dashboard comparativo por turno.
+
 ## 🛠️ Competencias Técnicas Demostradas
-* **Manipulación de Datos:** Limpieza y transformación de DataFrames complejos con Pandas.
-* **Lógica de Negocio:** Creación de funciones personalizadas para cálculos de multas, márgenes y productividad.
-* **Integración de Herramientas:** Exportación de resultados para visualización avanzada en Power BI.
+* **Manipulación y Limpieza (ETL):** Gestión de inconsistencias en formatos numéricos (comas vs puntos), eliminación de símbolos de moneda y tratamiento de valores nulos.
+* **Lógica de Negocio:** Creación de funciones personalizadas para cálculos de multas, márgenes, productividad y confiabilidad de activos.
+* **Integración de Herramientas:** Exportación de resultados procesados para visualización avanzada en Power BI y Looker Studio.
