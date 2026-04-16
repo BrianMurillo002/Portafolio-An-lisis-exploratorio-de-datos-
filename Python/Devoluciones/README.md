@@ -16,3 +16,15 @@ Se implementó un pipeline de limpieza para corregir errores de origen:
 ## 🛠️ Herramientas Utilizadas
 * **Python:** Pandas para la lógica condicional de `Perdida_Real`.
 * **Visualización:** Power BI / Looker Studio para el Dashboard de impacto regional.
+
+## 📊 Visualización y Entregables
+
+### 🖥️ Dashboard Interactivo
+Para facilitar la revisión de los hallazgos, se adjunta una vista previa del dashboard desarrollado:
+
+![Vista Previa del Dashboard](Devoluciones.png)
+
+### 📂 Archivos del Proyecto
+* [📥 Descargar Reporte en PDF](Devoluciones.pdf)
+* [📊 Archivo Fuente de Power BI (.pbix)](Devoluciones.pbix)
+* [🐍 Script de Procesamiento en Python](Valle_Tech.ipynb)
