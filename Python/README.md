@@ -24,6 +24,11 @@ Análisis de disponibilidad sobre 51.5 horas de parada y $12,000 en costos de re
 * **Impacto:** Detección de la **Extrusora_A** como cuello de botella crítico con un costo promedio de $350.50 por hora de inactividad.
 * **Entregables:** Proceso de limpieza de datos (ETL), cálculo de KPIs de mantenimiento y Dashboard comparativo por turno.
 
+### 5. [🚚 Auditoría de Devoluciones y Pérdida Operativa](/.Devoluciones)
+Este proyecto simula una auditoría logística para la empresa "Valle-Tech", enfocada en cuantificar el impacto financiero de los pedidos devueltos y la eficiencia de los costos de envío por zona geográfica.
+* **Impacto:** Localización de una pérdida operativa de $3.72M, detectando que la ciudad de Cali concentra el 57% del déficit, mientras que Palmira mantiene una eficiencia del 100%.
+* **Entregables:** Script de limpieza de datos (ETL) para estandarización de ciudades/moneda, lógica condicional de pérdida real y Dashboard ejecutivo de control logístico.
+
 ## 🛠️ Competencias Técnicas Demostradas
 * **Manipulación y Limpieza (ETL):** Gestión de inconsistencias en formatos numéricos (comas vs puntos), eliminación de símbolos de moneda y tratamiento de valores nulos.
 * **Lógica de Negocio:** Creación de funciones personalizadas para cálculos de multas, márgenes, productividad y confiabilidad de activos.
