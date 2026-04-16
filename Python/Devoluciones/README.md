@@ -27,4 +27,4 @@ Para facilitar la revisión de los hallazgos, se adjunta una vista previa del da
 ### 📂 Archivos del Proyecto
 * [📥 Descargar Reporte en PDF](Devoluciones.pdf)
 * [📊 Archivo Fuente de Power BI (.pbix)](Devoluciones.pbix)
-* [🐍 Script de Procesamiento en Python](Valle_Tech.ipynb)
+* [🐍 Script de Procesamiento en Python](Valle-Tech.ipynb)
